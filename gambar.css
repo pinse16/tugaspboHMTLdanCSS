@@ -1,0 +1,44 @@
+/* Mengatur gaya dasar halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Mengatur kontainer gambar */
+.image-container {
+    display: inline-block;
+    border: 5px solid #2980b9;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Mengatur gambar di dalam kontainer */
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Mengatur paragraf di bawah gambar */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #7f8c8d;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}

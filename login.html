@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1>Login Mahasiswa</h1>
+    <form action="submit_form.html" method="POST">
+        <table>
+            <tr>
+                <td>Nama:</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>NIM:</td>
+                <td><input type="text" name="nim"></td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir:</td>
+                <td><input type="text" name="tempat_lahir"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir:</td>
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td>Prodi:</td>
+                <td><input type="text" name="prodi"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+                    <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi:</td>
+                <td><input type="text" name="hobi"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
